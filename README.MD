@@ -416,31 +416,6 @@ The notebook includes visualizations showing:
 - Probability distributions for each prediction
 - Confusion matrix analysis
 
-## Project Structure
-
-```
-handwritten-digit-recognition/
-│
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── mnist_digit_recognition.ipynb      # Main Jupyter notebook
-│
-├── images/                            # Screenshots and visualizations
-│   ├── demo.png
-│   ├── architecture.png
-│   ├── results.png
-│   └── samples.png
-│
-├── models/                            # Saved models
-│   ├── mnist_cnn_model.h5            # Keras model file
-│   └── mnist_cnn_model/              # SavedModel format
-│
-└── test_images/                       # Sample test images
-    ├── digit_0.png
-    ├── digit_1.png
-    └── ...
-```
-
 ## Technologies Used
 
 - **TensorFlow/Keras**: Deep learning framework
@@ -500,16 +475,6 @@ Non-trainable params: 0
 **Issue**: Out of memory during training
 - **Solution**: Reduce batch size in training configuration
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -529,14 +494,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-```bibtex
-@misc{handwritten_digit_recognition,
-  author = {Winston Narada Kusumahadi},
-  title = {Handwritten Digit Recognition using CNN},
-  year = {2025},
-  publisher = {GitHub},
-}
-```
+Author = Winston Narada Kusumahadi,
+Title = Handwritten Digit Recognition using CNN,
 
 ---
 
